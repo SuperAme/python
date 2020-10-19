@@ -2,7 +2,7 @@ import random
 
 guesses = []
 
-myComputer = random.randint(0,9)
+myComputer = random.randint(0,130)
 
 player = int(input("Enter & guess the number between 0 & 9: "))
 guesses.append(player)
